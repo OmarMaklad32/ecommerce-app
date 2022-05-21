@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddnewProductActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:text="Upload Product"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ImageView
+            android:id="@+id/idimagetshirt"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tshirts4" />
+
+        <ImageView
+            android:id="@+id/idimageshoes"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/shoess4" />
+
+        <ImageView
+            android:id="@+id/idimagebag"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bags4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/idimagedress"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dress4" />
+
+        <ImageView
+            android:id="@+id/idimagecap"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/caps" />
+
+        <ImageView
+            android:id="@+id/idimagesweater"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sweater4" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

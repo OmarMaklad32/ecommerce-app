@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="290dp"
+    android:background="#F82C2C"
+    app:cardCornerRadius="18dp"
+    android:layout_marginEnd="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:background="#DDDCDC"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/idimageproduct_pop"
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="20dp"
+            tool:src="@drawable/cap"
+            />
+        <TextView
+            android:id="@+id/idtextproductname_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:text="product name"
+            android:textColor="#0B78CC"
+            android:textStyle="bold"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/idtextproductdescption_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#D72851CA"
+            tool:text="this is text vdescrption"
+            android:textSize="22dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:textColor="#131313"
+                android:textSize="20dp"
+                android:text="السعر : "/>
+            <TextView
+                android:id="@+id/idtextproductprice_pop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#CA1515"
+                tool:text="180 جنيه"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

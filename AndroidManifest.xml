@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecommerce2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ecommerce2">
+        <activity
+            android:name=".UsersaAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrdersAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmfinalorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDeatilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TshirtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRegisterationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddnewProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home3Activity"
+            android:exported="false"
+            android:label="@string/title_activity_home3"
+            android:theme="@style/Theme.Ecommerce2.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
